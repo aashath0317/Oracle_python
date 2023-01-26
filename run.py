@@ -2,11 +2,11 @@ import oci
 import os
 import time
 config = {
-    "user": "ocid1.user.oc1..aaaaaaaaul4cbqzowr4x5bnmsdmlqpo3onbs2ekwqb55yhnbh3izmksgr5ha",
-    "fingerprint": "4a:d4:ae:62:e3:29:bc:a6:0c:c9:b6:55:7a:f7:ba:a9",
-    "key_file": "oci_private.pem",
-    "tenancy": "ocid1.tenancy.oc1..aaaaaaaasnvm3ufpikguqeurze3z6ek5pgbsg2uiqtkfqha5qxplzbqqbm5a",
-    "region": "ap-singapore-1"
+    "user"="ocid1.user.oc1..aaaaaaaaul4cbqzowr4x5bnmsdmlqpo3onbs2ekwqb55yhnbh3izmksgr5ha",
+    "fingerprint"="e9:c9:3d:07:cd:33:3c:3a:99:08:58:5b:56:7b:36:67",
+    "tenancy"="ocid1.tenancy.oc1..aaaaaaaasnvm3ufpikguqeurze3z6ek5pgbsg2uiqtkfqha5qxplzbqqbm5a",
+    "region"="ap-singapore-1",
+    "key_file": "oci_private.pem
 }
 
 instance_name = 'instance-20230107-1323'
